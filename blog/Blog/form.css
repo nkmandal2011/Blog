@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+
+}
+.container{
+    max-width: 66vw;
+    padding: 2rem 1rem;
+    margin:auto;
+    background-color:white;
+}
+
+.form-action{
+    margin:auto;
+    height:600px;
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://jdm-planet.com/wp-content/uploads/2015/01/Login-background-1080x608.jpg);
+    gap:20px;
+    
+}
+
+.Name{
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:darkturquoise;
+
+}
+input{
+    height: 30px;
+    width:400px;
+}
+
+.password{
+    
+
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        color:darkturquoise;
+        
+    
+    
+}
+button{
+    height: 40px;
+    width: 70px;
+}
